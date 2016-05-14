@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#7006e6fa">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLEAR HISTORY"
+        android:id="@+id/btnClearHistory"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/etmsg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:editable="false"
+        android:textColor="#ffffff"
+        android:textSize="25sp">
+
+        <requestFocus />
+    </TextView>
+
+
+</LinearLayout>
